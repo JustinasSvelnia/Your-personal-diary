@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(120deg, #f8cd3f, #fc6b43);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+span {
+  color: rgb(100, 91, 81);
+}
+header {
+  font-size: 1.5rem;
+}
+header,
+form {
+  min-height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form button {
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 2rem;
+  border: none;
+  background: #fff;
+  color: #f89f84;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+form button:hover {
+  background: #f89f84;
+  color: #fff;
+}
+form textarea {
+  resize: none;
+  width: 25rem;
+  height: 15rem;
+  margin: 20px 0px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.entries-container {
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
+.entries-list {
+  list-style: none;
+  min-width: 60%;
+}
+.entrie {
+  margin: 1rem;
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.entrie li {
+  flex: 1;
+}
+.delete-btn {
+  background: #ff6f47;
+  font-size: 1.7rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.entrie-item {
+  padding: 2rem 1rem;
+  margin: 1rem auto;
+  text-align: center;
+  max-width: 95%;
+}
+
+.fa-trash {
+  pointer-events: none;
+}
